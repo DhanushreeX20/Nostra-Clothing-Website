@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collections</title>
+    <!--Link CSS File-->
+    <link rel="stylesheet" href="style.css">
+    <!--Link Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&amp;display=swap" rel="stylesheet">
+
+    <!--Link Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body cz-shortcut-listen="true">
+
+    <!--Offer Bar-->
+
+    <div class="offer-bar">
+        <p>Sign Up and <b>GET 20% OFF</b> for your first Order
+        <i id="offer-close" style="margin-left: 10%; cursor: pointer;" class="fa-solid fa-xmark"></i>
+        </p>
+    </div>
+
+        <!--Navigation Bar-->
+        <nav class="navbar">
+            <h1>Nostra</h1>
+            <div class="navbar-links">
+                <p class="navbar-link"><a href="./index.html">Home</a></p>
+                <p class="navbar-link"><a href="./index.html">New Arrival</a></p>
+                <p class="navbar-link"><a href="./index.html">Most Wanted</a></p>
+                <p class="navbar-link"><a href="./collection.html">Collections</a></p>
+                <p class="navbar-link"><a href="./contactus.html">Contact Us</a></p>
+            </div>
+            
+
+            <div class="navbar-menu-toggle">
+                <i id="side-navbar-activate" class="fa-solid fa-bars"></i>
+            </div>
+
+
+        </nav>
+
+        <!--Side Navbar-->
+
+        <div class="side-navbar"> 
+            <p style="text-align: right;">
+                <i id="side-navbar-close" class="fa-solid fa-xmark"></i>
+            </p>
+            <div class="side-navbar-links">
+
+                 <p class="side-navbar-link"><a href="./index.html">Home</a></p>
+                <p class="side-navbar-link"><a href="./index.html">New Arrival</a></p>
+            <p class="side-navbar-link"><a href="./index.html">Most Wanted</a></p>
+            <p class="side-navbar-link"><a href="./collections.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="./contactus.html">Contact Us</a></p>
+            </div>
+            
+        </div>
+
+        <div class="container">
+
+            <div class="divide-section">
+                <div class="filter-section">
+                   
+                    <h3 class="filter-section-occasion">Occasion</h3>
+                    <div>
+ <input type="checkbox" class="filter-checkbox"name="tags" value="casulas"> Casuals <br>
+                        <input type="checkbox" class="filter-checkbox"name="tags" value="summer"> Summer <br>
+                        <input type="checkbox" class="filter-checkbox"name="tags" value="formal"> Formals<br>
+                        <input type="checkbox" class="filter-checkbox"name="tags" value="party"> Party <br>
+                        <input type="checkbox" class="filter-checkbox"name="tags" value="beach"> Beach 
+
+                    </div>
+                   
+                    <h3 class="filter-section-colors"> Colors </h3>
+                    <div>
+                    <input type="checkbox" class="filter-checkbox"name="tags" value="red"> Red <br>
+                        <input type="checkbox" class="filter-checkbox"name="tags" value="blue"> Blue <br>
+                        <input type="checkbox" class="filter-checkbox"name="tags" value="white"> White <br>
+                         <input type="checkbox" class="filter-checkbox"name="tags" value="yellow"> Yellow <br>
+                        <input type="checkbox" class="filter-checkbox"name="tags" value="green"> Green
+                    </div>
+                    <h3 class="filter-section-colors"> Size</h3>
+                    <div>
+                    <input type="checkbox" class="filter-checkbox"name="tags" value="S"> S<br>
+                        <input type="checkbox" class="filter-checkbox"name="tags" value="M"> M <br>
+                        <input type="checkbox" class="filter-checkbox"name="tags" value="L"> L <br>
+                         <input type="checkbox" class="filter-checkbox"name="tags" value="XL"> XL<br>
+                        <input type="checkbox" class="filter-checkbox"name="tags" value="XXL"> XXL
+                    </div>
+
+                    <h3 class="filter-section-arrivals"> Arrivals </h3>
+                    <div>
+                    <input type="checkbox" class="filter-checkbox"name="tags" value="new"> New <br>
+                        <input type="checkbox" class="filter-checkbox"name="tags" value="old"> Old
+                      
+                    </div>
+                    <hr class="vertical-line">
+                </div>
+
+                <div class="product-section">
+                    <form class="navbar-search">
+                        <input type="search" placeholder="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </form>
+
+                    <div class="products">
+
+                    <div class="product" style="display:none;"> <img style="width: 20vw;" src="./images/products/summergreen.jpg">
+    <h1> Summer Green Shirt</h1>
+    <p>₹220</p>
+    <tags style="visibility:hidden;">new,green,summer,L,XL</tags></div><div class="product" style="display: block;"> <img style="width: 20vw;" src="./images/products/greenspring.jpg">
+    <h1>Summer Spring Shirt </h1>
+    <p>₹260</p>
+    <tags style="visibility:hidden;">new,red,formal,party,M,XXL</tags></div><div class="product" style="display: none;"> <img style="width: 20vw;" src="./images/products/redberry.jpg">
+    <h1>Red berry Shirt</h1>
+    <p>₹399</p>
+    <tags style="visibility:hidden;">old,red,party,beach,S,</tags></div><div class="product" style="display: none;"> <img style="width: 20vw;" src="./images/products/summerformal .jpg">
+    <h1>Summer formal Shirt</h1>
+    <p>₹399</p>
+    <tags style="visibility:hidden;">old,white,formal,XXL,XL,M</tags></div><div class="product" style="display: block;"> <img style="width: 20vw;" src="./images/products/beach.jpg">
+    <h1>Beach Shirt</h1>
+    <p>₹579</p>
+    <tags style="visibility:hidden;">old,blue,beach,S,</tags></div><div class="product" style="display: none;"> <img style="width: 20vw;" src="./images/products/mustardparty.jpg">
+    <h1>Mustard Party Shirt</h1>
+    <p>₹579</p>
+    <tags style="visibility:hidden;">old,yellow,party,XXL,</tags></div><div class="product" style="display: none;"> <img style="width: 20vw;" src="./images/products/party.jpg">
+    <h1>Party Shirt</h1>
+    <p>₹399</p>
+    <tags style="visibility:hidden;">old,white,party,S,XL</tags></div><div class="product" style="display: none;"> <img style="width: 20vw;" src="./images/products/shirtparty.jpg">
+    <h1>Shirt Party Arty</h1>
+    <p>₹579</p>
+    <tags style="visibility:hidden;">old,beach,party,XL,L,S</tags></div><div class="product" style="display:none;"> <img style="width: 19vw;" src="./images/products/whiteshirt.jpg">
+    <h1>White Formal Shirt</h1>
+    <p>₹579</p>
+        <tags style="visibility:hidden;">old,white,formal,XXL</tags></div><div class="product" style="display: none;"> <img style="width: 19vw;" src="./images/products/blueformal.jpg">
+    <h1>Blue Formal Shirt</h1>
+    <p>₹660</p>
+    <tags style="visibility:hidden;">new,blue,formal,L</tags></div><div class="product" style="display: block;"> <img style="width: 20vw;" src="./images/products/yellowformal.jpg">
+    <h1>Yellow Formal Shirt</h1>
+    <p>₹579</p>
+    <tags style="visibility:hidden;">old,yellow,party,formal,XL,M</tags></div><div class="product" style="display: none;"> <img style="width: 17vw;" src="./images/products/greeningworld.jpg">
+        <h1> Greening World Shirt</h1>
+    <p>₹670</p>
+    <tags style="visibility:hidden;">new,green,summer,beach,L,XL</tags></div><div class="product" style="display: block;"> <img style="width: 19vw;" src="./images/products/whitefloral.jpg">
+        <h1>White Floral Shirt </h1>
+    <p>₹660</p>
+    <tags style="visibility:hidden;">new,white,green,summer,beach,M,L,XXL</tags></div><div class="product" style="display: none;"> <img style="width: 20vw;" src="./images/products/summerspringshirt.jpg">
+    <h1>Spring Shirt </h1>
+    <p>₹460</p>
+    <tags style="visibility:hidden;">new,yellow,white,summer,beach,S,M,XXL</tags></div><div class="product" style="display: block;"> <img style="width: 20vw;" src="./images/products/lemongoldf.jpg">
+        <h1>Lemon gold Shirt</h1>
+    <p>₹220</p>
+        <tags style="visibility:hidden;">old,white,yellow,M,XL</tags></div><div class="product" style="display: none;"> <img style="width: 17vw;" src="./images/products/cas1.jpg">
+        <h1>Catty Shirt</h1>
+    <p>₹570</p>
+        <tags style="visibility:hidden;">new,yellow, white,casulas,XL,XXL,M</tags></div><div class="product" style="display: none;"> <img style="width: 17vw;" src="./images/products/cas2.jpg">
+        <h1>Coffe Date Shirt</h1>
+    <p>₹970</p>       
+     <tags style="visibility:hidden;">old,yellow,casulas,S,L,XL</tags></div><div class="product" style="display: none;"> <img style="width: 17vw;" src="./images/products/cas3.jpg">
+        <h1>Bloaty Caty Shirt</h1>
+    <p>₹770</p>        
+    <tags style="visibility:hidden;">new,blue,casulas,M,L,XXL</tags></div><div class="product" style="display: none;"> <img style="width: 17vw;" src="./images/products/cas4.jpg">
+        <h1>The Skull Fire Shirt</h1>
+         <p>₹830</p> 
+             <tags style="visibility:hidden;">old,yellow,blue,casulas,M,XL,</tags></div><div class="product" style="display: none;"> <img style="width: 17vw;" src="./images/products/leopard striped.jpg">
+        <h1>Leopard Striped</h1>
+         <p>₹960</p> 
+
+    <tags style="visibility:hidden;">new,yellow,summer,S,XL,XXL</tags></div></div>
+
+                </div>
+            </div>
+
+
+
+
+    <div class="news">
+        <h2>Join our News Letter</h2>
+        <p style="text-align: center;">Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+        <div style="margin-top: 10px;">
+        <input class="search">
+    </div>
+    <div>
+        <button> Subscribe <i class="fa-solid fa-arrow-right"></i> </button>
+    </div>
+    </div>
+
+    </div>
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="headingText">Nostra</h2>
+                <p>The Standard chunk of Lorem ipsum
+                    used since the 1500s is reprodused
+                    below for those interest</p>
+                <div class="footer-icon-container">
+                    <i class="icon fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="icon fa-brands fa-twitter" style="color: #ffffff;"></i>
+                    <i class="icon fa-brands fa-facebook" style="color: #ffffff;"></i>
+                </div>
+            </div>
+
+            
+
+        </div>
+
+        <p class="subtitle">@ 2023 Nostra.com</p>
+    </div>
+
+   
+    
+    <!--Link Javascript File-->
+    <script type="module" src="collection.js"></script>
+
+</body>
